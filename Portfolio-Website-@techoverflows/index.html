@@ -106,7 +106,7 @@
 <!-- about section ends -->
 
 <!-- skills section starts -->
-<section class="skills">
+<!-- <section class="skills">
 
     <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
 
@@ -178,7 +178,150 @@
 
       </div>
 </div>
+</section> -->
+<style>
+  .skills {
+    padding: 50px 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.skills .heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+}
+
+.skills .heading i {
+    color: #6c63ff;
+}
+
+.skills .heading span {
+    color: #7d2ae8;
+}
+
+#skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bar {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.info span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+</style>
+<section class="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+  
+  <div class="container">
+      <div class="row" id="skillsContainer">
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/python.png" alt="Python" />
+                  <span>Python</span>
+              </div>
+          </div>
+          
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/django.png" alt="Django" />
+                  <span>Django</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/sql.jpeg" alt="SQL" />
+                  <span>SQL</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/angular.png" alt="Angular" />
+                  <span>Angular</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/html.png" alt="HTML" />
+                  <span>HTML</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/css.png" alt="CSS" />
+                  <span>CSS</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/bootstrap.png" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/aws.png" alt="AWS" />
+                  <span>AWS</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/js.png" alt="JavaScript" />
+                  <span>JavaScript</span>
+              </div>
+          </div>
+
+          <div class="bar">
+              <div class="info">
+                  <img src="assets/images/skills/sklearn.png" alt="Scikit-learn" />
+                  <span>Sklearn</span>
+              </div>
+          </div>
+
+      </div>
+  </div>
 </section>
+
 <!-- skills section ends -->
 
 
